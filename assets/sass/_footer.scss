@@ -1,0 +1,43 @@
+
+
+#footer{
+	background-color:#333333;
+	color:#D3D3D3;
+	margin-top: 40px;
+	.container{
+		margin-bottom:40px;
+
+
+	}
+	p{
+		margin-top: 20px;
+	}
+	img{
+		margin-top: 10px;
+	}
+	b{
+		color:white;
+	}
+	h4{
+		color:white;
+		border-bottom: 2px solid #31A3DD;
+		padding-bottom: 11px;
+		text-transform: uppercase;
+	}
+	a{
+		img{
+			width:80px;
+			height: 70px;
+			&:hover{
+				opacity:0.3;
+			}
+		}
+	}
+	button{
+		margin-top: 10px;
+		width:100%;
+		height:46px;
+		border-style:none;
+		background-color:#31A3DD;
+	}
+}

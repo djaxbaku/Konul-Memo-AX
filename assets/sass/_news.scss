@@ -1,0 +1,42 @@
+$color:#555;
+
+body{
+	
+	
+}
+
+#news{
+	padding:20px;
+	
+
+	.container{
+		
+		
+		text-align: center;
+		color:$color;
+		h3{
+			line-height: 20px;
+			font-size: 18px;
+			color:$color;
+			
+
+			font-family: "Lato";
+			//font-weight: 800;
+		}
+
+		p{
+			margin-bottom: 30px;
+			
+		}
+
+
+
+		img {
+			width: 262px;
+			height: 187px;
+			
+
+		}
+		
+	}
+}
