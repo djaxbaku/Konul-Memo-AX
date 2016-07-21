@@ -1,59 +1,121 @@
-/*
-Error: Invalid CSS after "_helloworld.scss": expected "{", was ""
-        on line 1 of /Users/alikhalilzadeh/Desktop/project/assets/sass/_helloworld.scss
-        from line 1 of /Users/alikhalilzadeh/Desktop/project/assets/sass/style.scss
+#helloworld {
+  background-color: #3B4344; }
+  #helloworld h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold; }
+  #helloworld p {
+    color: white; }
+  #helloworld .leftside {
+    margin-top: 100px;
+    color: white; }
+    #helloworld .leftside p {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: white;
+      line-height: 40px; }
+  #helloworld .center {
+    margin-top: 50px; }
+  #helloworld .rightside {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    line-height: 40px; }
 
-1: _helloworld.scss
+#servicepackage h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #555555;
+  font-weight: bold; }
+#servicepackage p {
+  color: #B2AFAF; }
+#servicepackage .col-md-3 {
+  margin-top: 50px;
+  margin-right: 30px;
+  width: 260px;
+  border: 3px solid #F1F1F1;
+  transition: 250ms all linear; }
+  #servicepackage .col-md-3 h2, #servicepackage .col-md-3 h1 {
+    border-bottom: 1px solid  #F1F1F1;
+    padding-bottom: 15px; }
+  #servicepackage .col-md-3 p {
+    margin-top: 15px; }
+  #servicepackage .col-md-3 a {
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B2AFAF; }
+  #servicepackage .col-md-3 a:hover {
+    margin-top: 20px;
+    color: #31a3dd;
+    font-weight: bold; }
+#servicepackage .col-md-3:hover {
+  margin-top: 20px; }
 
-Backtrace:
-/Users/alikhalilzadeh/Desktop/project/assets/sass/_helloworld.scss:1
-/Users/alikhalilzadeh/Desktop/project/assets/sass/style.scss:1
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
-/Users/alikhalilzadeh/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"_helloworld.scss\": expected \"{\", was \"\"\A         on line 1 of /Users/alikhalilzadeh/Desktop/project/assets/sass/_helloworld.scss\A         from line 1 of /Users/alikhalilzadeh/Desktop/project/assets/sass/style.scss\A \A 1: _helloworld.scss"; }
+#customer {
+  margin-top: 50px;
+  background: url("../img/demo-2.png") repeat;
+  height: 300px;
+  width: 100%; }
+  #customer h2 {
+    margin-top: 80px;
+    font-weight: bolder;
+    color: #555555; }
+  #customer p {
+    color: #B2AFAF; }
+  #customer .text2 {
+    margin-top: 30px;
+    font-size: 20px; }
+
+#info h3 {
+  margin-top: 50px;
+  color: #555555;
+  font-weight: bold;
+  margin-bottom: 50px; }
+#info .leftside .text1 {
+  line-height: 50px;
+  background-color: #31A3DD;
+  color: white;
+  width: 545px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px 5px 0 0;
+  font-weight: bold;
+  font-size: 20px; }
+  #info .leftside .text1 p {
+    margin-left: 10px; }
+#info .leftside .text3 {
+  border: 1px solid #f1f1f1;
+  width: 545px;
+  color: #999999;
+  padding: 20px; }
+#info .leftside .text {
+  line-height: 50px;
+  border: 1px solid #F1F1F1;
+  border-radius: 5px;
+  color: #555555;
+  font-weight: bold;
+  font-size: 20px;
+  width: 550px;
+  margin: 10px; }
+  #info .leftside .text span i {
+    color: #31A3DD; }
+#info .rightside .col-md-3 {
+  height: 160px;
+  width: 180px;
+  background-color: #31A3DD;
+  margin: 5px;
+  border-radius: 3px;
+  transition: .2s all linear; }
+#info .col-md-3 h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white; }
+#info .col-md-3 p {
+  color: white;
+  font-size: 15px; }
+#info .col-md-3:hover {
+  background-color: #404242; }
+
+/*# sourceMappingURL=style.css.map */

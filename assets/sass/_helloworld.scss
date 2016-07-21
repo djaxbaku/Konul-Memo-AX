@@ -1,1 +1,32 @@
-_helloworld.scss
+
+#helloworld{
+	background-color: #3B4344;
+	h2{ margin-top: 50px;
+		font-size: 30px;
+		color:white;
+		font-weight: bold;
+	}
+	p{
+		color: white;
+	}
+	.leftside { 
+		margin-top: 100px;
+		color: white;
+		p{  font-weight: bold;
+			font-size:1.2em;
+			color: white;
+			line-height: 40px;
+
+		}
+	}
+	.center{
+		margin-top: 50px;
+	}
+	.rightside{
+		margin-top: 100px;
+		font-weight: bold;
+			font-size:1.2em;
+			color: white;
+			line-height: 40px;
+	}
+}

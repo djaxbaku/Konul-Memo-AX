@@ -1,0 +1,37 @@
+#servicepackage{
+	h2{ margin-top: 50px;
+		font-size: 30px;
+		color:#555555;
+		font-weight: bold;
+	}
+	p{
+		color: #B2AFAF;
+	}
+	.col-md-3{
+		margin-top:50px;
+		margin-right: 30px; 
+		width: 260px;
+		border:3px solid #F1F1F1;
+		transition: 250ms all linear;
+		h2, h1{
+			border-bottom: 1px solid  #F1F1F1;
+			padding-bottom: 15px;
+		}
+		p{
+			margin-top: 15px;
+		}
+		a{ margin-top: 20px;
+			font-weight:bold;
+		 text-decoration: none;
+		 color: #B2AFAF;
+		}
+		a:hover{
+			margin-top: 20px;
+			color: #31a3dd;
+			font-weight: bold;
+		}
+	}
+	.col-md-3:hover{
+		margin-top: 20px;
+	}
+}
