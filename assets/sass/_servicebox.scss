@@ -1,0 +1,50 @@
+@import "variables.scss";
+#servicebox{
+	height: 300px;
+}
+.services{
+	height: 270px;
+	.serviceBoxes{
+		width: 360px;
+		height: 179px;
+		border: 4px solid $topBarBorder;
+		float: left;
+		margin-left: 60px;
+		margin-top: 60px;
+		transition:250ms linear;
+		#serviceBtn{
+			height: 40px;
+			width: 50px;
+			margin-left: 159px;
+			margin-top: -20px;
+			background-color: white;
+			text-align: center;			
+			i{
+				font-size: 35px;
+				color: $topBarBorder;
+				transition: 250ms linear;
+
+			}
+		}
+		.serviceInfo{
+			text-align: center;
+			h3{
+				color: #555555;
+			}
+			p{
+				color: $fontColor;
+				font-size: 14px;
+				line-height: 2;
+			}
+		}
+		&:hover{
+			border: 4px solid $mainColor;
+			#serviceBtn{
+				i{
+					color: $mainColor;
+					margin-top: -10px;
+				}
+			}
+		}
+	}
+}

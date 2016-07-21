@@ -1,0 +1,72 @@
+@import "variables.scss";
+#topbar{
+	background-color: $topBar; 
+}
+.col-md-12{
+	height: 44px;
+	font-size: 13.3px;
+}
+.topLeft{
+	ul{
+		li{ 
+		    line-height: 3.3;
+			color: $fontColor;
+			display: inline-block;
+			border-left: 1px solid $topBarBorder;
+			border-right: 1px solid $topBarBorder;
+			margin-right: -5px;
+			padding: 0px 8px;
+		}
+	}
+}
+.topRight{
+	ul{ 
+		li{
+			border-right: 1px solid $topBarBorder;
+			border-left: 1px solid $topBarBorder;
+			padding: 13px 21px;
+			display: inline-block;
+			margin-left: -5px;
+			transition:250ms linear;
+			a{
+				color: $fontColor;
+			}
+
+		}
+	}
+}
+#fb:hover{
+	background-color: #3B5998;
+	cursor: pointer;
+	a{
+		color: white;
+	}
+}
+#twit:hover{
+	background-color: #1DA1F2;
+	cursor: pointer;
+	a{
+		color: white;
+	}
+}
+#gp:hover{
+	background-color: #DD5044;
+	cursor: pointer;
+	a{
+		color: white;
+	}
+}
+#pnt:hover{
+	background-color: #CB2027;
+	cursor: pointer;
+	a{
+		color: white;
+	}
+}
+#li:hover{
+	background-color: #007BB6;
+	cursor: pointer;
+	a{
+		color: white;
+	}
+}
