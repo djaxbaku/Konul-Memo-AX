@@ -1,0 +1,37 @@
+#menu{
+	height: 102px;
+	img{
+		height: 42px;
+		width: 99px;
+		margin-top: 30px;
+		margin-left: 50px;
+	}
+	ul{
+		li{
+			height: 33px;
+			width: 79px;
+			border-radius: 20px;
+			display: inline-block;
+			text-align: center;
+			margin-top: 35px;
+			margin-right: 0px;
+			transition: 250ms ease-in;
+			padding: 0px 10px;
+			a{
+				color: $fontColor;
+				font-size: 15px;
+				line-height: 2;
+				text-decoration: none;
+			}
+			&:hover{
+				background-color: $mainColor;
+				a{
+					color: white;
+				}
+			}
+		}
+	}
+}
+.col-md-7{
+	margin-right: 20px;
+}
